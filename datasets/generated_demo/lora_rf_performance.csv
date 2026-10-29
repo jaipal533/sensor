@@ -1,0 +1,16 @@
+timestamp,node_id,packet_seq,frequency_mhz,spreading_factor,bandwidth_khz,coding_rate,rssi_dbm,snr_db,latency_ms,packet_size_bytes,delivery_status,battery_voltage_v,obstacle_environment,notes
+2026-10-28T10:00:00Z,ESP32_LORA_NODE_01,1001,865.2,7,125,4/5,-62,9.5,42.4,32,1,4.12,Line_of_Sight_5m,Clear signal bench test
+2026-10-28T10:00:15Z,ESP32_LORA_NODE_01,1002,865.2,7,125,4/5,-64,9.2,43.1,32,1,4.12,Line_of_Sight_5m,Nominal packet transmission
+2026-10-28T10:00:30Z,ESP32_LORA_NODE_01,1003,865.2,7,125,4/5,-71,8.0,45.8,32,1,4.11,1_Interior_Brick_Wall_12m,Living room partition
+2026-10-28T10:00:45Z,ESP32_LORA_NODE_01,1004,865.2,7,125,4/5,-73,7.6,46.2,32,1,4.11,1_Interior_Brick_Wall_12m,Stable link
+2026-10-28T10:01:00Z,ESP32_LORA_NODE_01,1005,865.2,7,125,4/5,-82,5.8,49.5,32,1,4.11,2_Reinforced_Concrete_Walls_25m,Kitchen to balcony path
+2026-10-28T10:01:15Z,ESP32_LORA_NODE_01,1006,865.2,7,125,4/5,-85,4.9,51.0,32,1,4.10,2_Reinforced_Concrete_Walls_25m,Slight attenuation
+2026-10-28T10:01:30Z,ESP32_LORA_NODE_01,1007,865.2,7,125,4/5,-96,2.1,58.3,32,1,4.10,Multi_Floor_Concrete_Slab_40m,Ground floor to 1st floor
+2026-10-28T10:01:45Z,ESP32_LORA_NODE_01,1008,865.2,7,125,4/5,-99,1.2,62.1,32,1,4.09,Multi_Floor_Concrete_Slab_40m,Low SNR operational
+2026-10-28T10:02:00Z,ESP32_LORA_NODE_01,1009,865.2,7,125,4/5,-108,-2.8,78.5,32,1,4.09,Boundary_Compound_Wall_80m,Sub-noise demodulation
+2026-10-28T10:02:15Z,ESP32_LORA_NODE_01,1010,865.2,7,125,4/5,-116,-7.4,94.2,32,1,4.08,Boundary_Compound_Wall_120m,Near receiver sensitivity
+2026-10-28T10:02:30Z,ESP32_LORA_NODE_01,1011,865.2,7,125,4/5,-124,-11.2,142.0,32,0,4.08,Extreme_Obstruction_Deep_Basement,CRC check fail timeout
+2026-10-28T10:02:45Z,ESP32_LORA_NODE_01,1012,865.2,8,125,4/5,-112,-4.5,88.7,32,1,4.07,Boundary_Compound_Wall_120m,Adaptive SF8 improved margin
+2026-10-28T10:03:00Z,ESP32_LORA_NODE_01,1013,865.2,8,125,4/5,-109,-3.9,89.1,32,1,4.07,Boundary_Compound_Wall_120m,Stable at SF8
+2026-10-28T10:03:15Z,ESP32_LORA_NODE_01,1014,865.2,7,125,4/5,-68,8.8,44.0,32,1,4.07,Balcony_Sensor_Node_15m,DHT22 reading transmitted
+2026-10-28T10:03:30Z,ESP32_LORA_NODE_01,1015,865.2,7,125,4/5,-67,9.0,43.8,32,1,4.06,Balcony_Sensor_Node_15m,PIR motion event payload

@@ -1,0 +1,6 @@
+{
+  "name": "Smart Home Automation with LoRa, IoT & AI Energy Prediction",
+  "description": "Comprehensive Final-Year B.Tech Smart Home Automation system using LoRa 865-867MHz, ESP32, IoT sensors, machine learning energy forecasting, occupancy detection, and real-time dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
